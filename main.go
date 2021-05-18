@@ -9,11 +9,11 @@ import (
 
 	"github.com/docopt/docopt-go"
 	"github.com/kovetskiy/lorg"
-	"github.com/kovetskiy/mark/pkg/confluence"
-	"github.com/kovetskiy/mark/pkg/mark"
-	"github.com/kovetskiy/mark/pkg/mark/includes"
-	"github.com/kovetskiy/mark/pkg/mark/macro"
-	"github.com/kovetskiy/mark/pkg/mark/stdlib"
+	"github.com/bonovoxly/mark/pkg/confluence"
+	"github.com/bonovoxly/mark/pkg/mark"
+	"github.com/bonovoxly/mark/pkg/mark/includes"
+	"github.com/bonovoxly/mark/pkg/mark/macro"
+	"github.com/bonovoxly/mark/pkg/mark/stdlib"
 	"github.com/reconquest/karma-go"
 	"github.com/reconquest/pkg/log"
 )
@@ -38,7 +38,7 @@ const (
 	version = "5.7"
 	usage   = `mark - a tool for updating Atlassian Confluence pages from markdown.
 
-Docs: https://github.com/kovetskiy/mark
+Docs: https://github.com/bonovoxly/mark
 
 Usage:
   mark [options] [-u <username>] [-p <token>] [-k] [-l <url>] -f <file>
